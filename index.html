@@ -1,9 +1,15 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Résumé</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
@@ -12,7 +18,7 @@
         <div class="container">
           <div class="resume__block">
             <h1 class="contact-info__header">Liudmyla Bielikova</h1>
-            <h3 class="contact-info__sub-header">Junior Fullstack Developer</h3>
+            <h2 class="contact-info__sub-header">Junior Fullstack Developer</h2>
 
             <div class="contact_info_container fh">
               <div class="contact-info__block">
@@ -95,6 +101,7 @@
               </div>
             </div>
           </div>
+
           <div class="resume__block">
             <div class="intro">
               <div class="intro__icon-wrapper">
@@ -120,158 +127,190 @@
               </p>
             </div>
           </div>
-          <div class="resume__block">
-            <div class="skills-container">
-              <div class="skills-section">
-                <h2 class="resume__section-title">Technical Skills</h2>
-                <ul class="skills-list">
-                  <li>
-                    <strong>Frontend:</strong> HTML5, CSS3, JavaScript (ES6+),
-                    React, Next.js, TypeScript
-                  </li>
-                  <li>
-                    <strong>Backend:</strong> Node.js (basic), Express.js
-                    (basic), REST API development
-                  </li>
-                  <li><strong>State Management:</strong> Redux, Zustand</li>
-                  <li>
-                    <strong>Tools & Methods:</strong> Git, Vite, Firebase,
-                    Agile/Scrum, OOP Principles
-                  </li>
-                  <li>
-                    <strong>UI/UX:</strong> Responsive Design, BEM, CSS Modules
-                  </li>
-                </ul>
-              </div>
 
-              <div class="skills-section">
-                <h2 class="resume__section-title">Languages</h2>
-                <ul class="skills-list">
-                  <li><strong>Ukrainian:</strong> Native</li>
-                  <li><strong>English:</strong> Intermediate</li>
-                  <li><strong>Romanian:</strong> Intermediate</li>
-                </ul>
-              </div>
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Skills</h3>
+              <p class="skills__text">
+                <strong>Frontend:</strong>
+                <span>HTML5</span> <span>CSS3</span>
+                <span>JavaScript (ES6+)</span> <span>React</span>
+                <span>Next.js</span> <span>TypeScript</span> <span>Redux</span>
+                <span>Zustand</span> <span>Responsive Design</span>
+                <span>BEM</span> <span>CSS Modules</span>
+
+                <strong>Backend & Tools:</strong>
+                <span>Node.js (basic)</span> <span>Express.js (basic)</span>
+                <span>REST API development</span> <span>Firebase</span>
+                <span>Cloudinary</span> <span>Vite</span> <span>Git</span>
+                <span>Agile/Scrum</span>
+
+                <strong>Soft Skills:</strong>
+                <span>Problem solving</span> <span>Continuous Learning</span>
+                <span>Team Collaboration</span> <span>Attention to detail</span>
+              </p>
             </div>
           </div>
+
           <div class="resume__block">
-            <h2 class="resume__section-title">Project Experience</h2>
-            <div class="timeline-item">
-              <div class="timeline-item__header">
-                <h3 class="timeline-item__title">
-                  Group Project — Booksy (Team Lead & Developer)
-                </h3>
-                <span class="timeline-item__date"
-                  >Tech: HTML, CSS, JS, Vite, REST API</span
-                >
-              </div>
-              <p class="timeline-item__description">
-                A responsive single-page website and book catalog with dynamic
-                content, category filtering, and a shopping cart system.
-              </p>
-              <ul class="timeline-item__bullets">
-                <li>
-                  Led a 10-person development team using Scrum-like workflow,
-                  coordinated tasks, and performed code reviews.
-                </li>
-                <li>
-                  Implemented dark mode with persistent localStorage settings.
-                </li>
-                <li>
-                  Ensured overall code quality and project synchronization.
-                </li>
-              </ul>
-            </div>
-            <div class="timeline-item">
-              <div class="timeline-item__header">
-                <h3 class="timeline-item__title">
-                  Individual Project — Pets-love (Full-Stack Developer)
-                </h3>
-                <span class="timeline-item__date"
-                  >Tech: Next.js, TypeScript, Zustand, REST API,
-                  Cloudinary</span
-                >
-              </div>
-              <p class="timeline-item__description">
-                A responsive full-stack web application for pet owners that
-                allows user registration, profile management, avatar uploads,
-                filtering, sorting, and pagination.
-              </p>
-              <ul class="timeline-item__bullets">
-                <li>
-                  Implemented secure user authentication and dynamic profile
-                  management.
-                </li>
-                <li>
-                  Integrated Cloudinary for robust image upload functionality.
-                </li>
-                <li>Managed scalable state architecture using Zustand.</li>
-              </ul>
-            </div>
-            <div class="timeline-item">
-              <div class="timeline-item__header">
-                <h3 class="timeline-item__title">
-                  Individual Project — LearnLingo (Frontend Developer)
-                </h3>
-                <span class="timeline-item__date"
-                  >Tech: React, Firebase, Redux, CSS Modules</span
-                >
-              </div>
-              <p class="timeline-item__description">
-                A responsive platform for searching and booking language tutors
-                with complex filtering (by language, level, price) and
-                interactive forms.
-              </p>
-              <ul class="timeline-item__bullets">
-                <li>
-                  Implemented Firebase authentication and data persistence for
-                  favorites feature.
-                </li>
-                <li>
-                  Created seamless booking flow with fully validated modal
-                  forms.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="resume__block">
-            <h2 class="resume__section-title">Work History & Education</h2>
+            <div class="main-info fh">
+              <div class="experiences">
+                <h3 class="experiences__header">Experience</h3>
 
-            <div class="timeline-item">
-              <div class="timeline-item__header">
-                <h3 class="timeline-item__title">
-                  Orthodontic Assistant / Administrator — OL.Dent Clinic
-                </h3>
-                <span class="timeline-item__date">2021 — 2025</span>
-              </div>
-              <ul class="timeline-item__bullets">
-                <li>
-                  Maintained strict compliance with protocols, demonstrating
-                  high responsibility and attention to detail.
-                </li>
-                <li>
-                  Optimized workflows and appointment scheduling, significantly
-                  improving daily clinic efficiency.
-                </li>
-              </ul>
-            </div>
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability"
+                      >2025-2026</span
+                    >
+                    <h3 class="experiences__company-header-name">
+                      GoIT Fullstack Projects
+                    </h3>
+                  </div>
 
-            <div class="timeline-item">
-              <div class="timeline-item__header">
-                <h3 class="timeline-item__title">
-                  Fullstack Developer Certification — GoIT
-                </h3>
-                <span class="timeline-item__date">Graduated: 2025</span>
-              </div>
-            </div>
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role"
+                      >Team Lead / Full Stack Developer</span
+                    >
+                    <h3 class="experiences__company-project-name">
+                      Booksy Project
+                    </h3>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>
+                        Led a 10-person development team using Scrum-like
+                        workflow, coordinated tasks, and performed code reviews.
+                      </li>
+                      <li>
+                        Implemented dark mode with persistent localStorage
+                        settings.
+                      </li>
+                      <li>
+                        Ensured overall code quality and project
+                        synchronization.
+                      </li>
+                    </ul>
+                  </div>
 
-            <div class="timeline-item">
-              <div class="timeline-item__header">
-                <h3 class="timeline-item__title">
-                  Master's Degree in Dentistry — Bukovinian State Medical
-                  University
-                </h3>
-                <span class="timeline-item__date">2016 — 2021</span>
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role"
+                      >Full Stack Developer</span
+                    >
+                    <h3 class="experiences__company-project-name">
+                      Pets-love Project
+                    </h3>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>
+                        Implemented secure user authentication and dynamic
+                        profile management.
+                      </li>
+                      <li>
+                        Integrated Cloudinary for robust image upload
+                        functionality.
+                      </li>
+                      <li>
+                        Managed scalable state architecture using Zustand.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role"
+                      >Frontend Developer</span
+                    >
+                    <h3 class="experiences__company-project-name">
+                      LearnLingo Project
+                    </h3>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>
+                        Implemented Firebase authentication and data persistence
+                        for favorites feature.
+                      </li>
+                      <li>
+                        Created seamless booking flow with fully validated modal
+                        forms.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability"
+                      >2021 - 2025</span
+                    >
+                    <h3 class="experiences__company-header-name">
+                      OL.Dent Clinic
+                    </h3>
+                  </div>
+
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role"
+                      >Orthodontic Assistant / Administrator</span
+                    >
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>
+                        Maintained strict compliance with protocols,
+                        demonstrating high responsibility and attention to
+                        detail.
+                      </li>
+                      <li>
+                        Optimized workflows and appointment scheduling,
+                        significantly improving daily clinic efficiency.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="additional-info fv">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Education</h3>
+
+                  <div class="additional-info__education-university">
+                    <span
+                      class="additional-info__education-university-durability"
+                      >2025</span
+                    >
+                    <h3
+                      class="additional-info__education-university-speciality"
+                    >
+                      Fullstack Developer Certification
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      GoIT Academy
+                    </p>
+                  </div>
+
+                  <div
+                    class="additional-info__education-university"
+                    style="margin-top: 15px"
+                  >
+                    <span
+                      class="additional-info__education-university-durability"
+                      >2016 — 2021</span
+                    >
+                    <h3
+                      class="additional-info__education-university-speciality"
+                    >
+                      Master's Degree in Dentistry
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      Bukovinian State Medical University
+                    </p>
+                  </div>
+                </div>
+
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Languages</h3>
+                  <p class="additional-info__languages-item">
+                    <strong>Ukrainian:</strong> Native
+                  </p>
+                  <p class="additional-info__languages-item">
+                    <strong>English:</strong> Intermediate
+                  </p>
+                  <p class="additional-info__languages-item">
+                    <strong>Romanian:</strong> Intermediate
+                  </p>
+                </div>
               </div>
             </div>
           </div>
